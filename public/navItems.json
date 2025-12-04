@@ -7,83 +7,32 @@
     },
    {
         "id" : 2,
-    "title": "About Me",
+    "title": "About",
     "path" : "/about",
     "section":"about"
  },
  {
         "id" : 3,
-  "title": "Reposteria",
-  "path" : "/reposteria",
-  "section":"Reposteria"
+  "title": "Services",
+  "path" : "/services",
+  "section":"Service"
  },
  {
         "id" : 4,
-  "title": "Yaudi",
-  "path" : "/yaudi",
-  "section":"yaudi"
+  "title": "Portfolio",
+  "path" : "/portfolio",
+  "section":"portfolio"
  },
+
 
  {
         "id" : 5,
-  "title": "Creativity",
-  "path" : "/creativity",
-  "section":"creativity"
- },
- {
-        "id" : 6,
-  "title": "Social",
-  "path" : "/social",
-  "section":"social"
- },
- {
-        "id" : 7,
-  "title": "Active",
-  "path" : "/active",
-  "section":"active"
- },
- {
-        "id" : 8,
-  "title": "Membership",
-  "path" : "/membership",
-  "section":"membership"
- },
- {
-        "id" : 9,
-  "title": "Blog",
-  "path" : "/blog",
-  "section":"blog"
- },
- {
-        "id" : 10,
-  "title": "Brand",
-  "path" : "/brand",
-  "section":"brand"
- },
- {
-        "id" : 11,
-  "title": "Horizon",
-  "path" : "/horizon",
-  "section":"horizon"
- },
- {
-        "id" : 12,
-  "title": "Dream",
-  "path" : "/dream",
-  "section":"dream"
- },
- {
-        "id" : 13,
-  "title": "Facebook",
-  "path" : "/facebook",
-  "section":"facebook"
- },
- {
-        "id" : 14,
-  "title": "Menifest",
-  "path" : "/menifest",
-  "section":"menifest"
+  "title": "Contact",
+  "path" : "/contact",
+  "section":"contact"
  }
+ 
+ 
   ]
 }
   

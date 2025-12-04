@@ -5,30 +5,32 @@ import React from 'react';
 import Tools from './Tools';
 import { TypeAnimation } from 'react-type-animation';
 
+
 const HomePage = () => {
+  
+const text = "At My Site, I am a local business that specializes in providing top-notch SEO services to help improve your online presence. I offer a range of services including On-page SEO, Off-page SEO, Technical SEO, Local SEO, Monthly SEO, and E-commerce SEO, as well as Google Analytics and Google Search Console setup. My goal is to help you achieve a first-page ranking on Google and increase your online visibility. Contact me today to learn more"
+
     return (
         <div>
        {/* Title  */}
-            <div className='md:flex bg-gray-300'>
+            <div className='md:flex bg-gray-100'>
                                    
-                <div className='m-5 space-y-5 px-5 bg-white'>    
+                <div className='m-5 space-y-5 px-5 bg-white border rounded-2xl'>    
                
-                <Image src="/banner3.jpg" width={300} height={300} alt='banner image'></Image>
+                <Image src="/banner-photo.jpg" width={300} height={300} alt='banner image'></Image>
                <div className='text-center bg-white'>
-                 <h1 className='text-2xl'>Hello, I'm Mawsumi Akter</h1>
+                 <h1 className='text-2xl'>Hello, I'm Aysha Noor Thiti</h1>
                 <h5>Social Media Manager</h5>
                 <p className='font-bold'>BANGLADESH</p>
                </div>
                </div>
-            <div className='w-1/3 flex flex-col items-center justify-center space-y-4 p-6 bg-gray-300 rounded-md'>
-                <div className=' rounded-md w-full max-w-xs text-center   bg-white'><h1 className='text-3xl  text-blue-400'>+4 years</h1><p className='text-2xl'>of experience in digital marketing</p></div>
-                <div className='rounded-md w-full max-w-xs bg-white text-left p-3 '><h1 className='underline text-3xl font-bold'>Tools.</h1> 
-                 <Image src="/banner5.jpg" width={300} height={300} alt='banner image'></Image>
+            <div className='w-full flex flex-col items-center justify-center space-y-4 m-2 bg-white rounded-md'>
+                <div className=' rounded-md w-full text-start p-2  bg-white'>
+                    <h1 className='text-3xl  text-blue-400'>{text}</h1>
                 </div>
+              
             </div>
-            <div className='w-1/3 flex justify-end'>
-               <Image src="/banner4.jpg" width={300} height={300} alt='banner image'></Image>
-            </div>
+           
             </div>
         </div>
     );

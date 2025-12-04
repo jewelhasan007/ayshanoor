@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Mawsumi Akter || Home",
-  description: "Digital Marketer",
+  title: "Aysha Noor || Home",
+  description: "Digital Marketer || SEO",
 };
 
 export default function RootLayout({ children }) {

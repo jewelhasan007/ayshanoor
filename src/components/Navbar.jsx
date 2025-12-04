@@ -9,7 +9,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Navbar = () => {
 
-  const activeColor = "#d62976";
+  const activeColor = "	#AA336A";
     const pathname = usePathname();
   const [allSections, setAllSections] = useState([]);
   
@@ -34,7 +34,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="navbar bg-gray-200 shadow-sm relative">
+    <div className="navbar bg-[#F8C8DC] shadow-sm relative">
       <div className="navbar-start">
         <div className={` ${isDropdownOpen ? 'dropdown' : ''}`}>
           <div onClick={handleDropdownToggle} tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -112,3 +112,13 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+// Dark Pink	#AA336A
+// Hot Pink	#FF69B4
+// Light Pink	#FFB6C1
+// Millennial Pink	#F3CFC6
+// Neon Pink	#FF10F0
+// Pastel Pink	#F8C8DC
+// Pink	#FFC0CB
+// 
