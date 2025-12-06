@@ -15,6 +15,7 @@ const page = () => {
   <h2 className="lg:text-center font-bold text-red-500 text-4xl">
     
    Blogs
+   <p>link: https://www.tithi.beautycarentips.com/</p>
   </h2>
 <div className='grid lg:grid-cols-3 lg:place-items-center gap-10 m-3 p-3'>
              {
