@@ -19,14 +19,14 @@ const text = "At My Site, I am a local business that specializes in providing to
                
                 <Image src="/banner-photo.jpg" width={300} height={300} alt='banner image'></Image>
                <div className='text-center bg-white'>
-                 <h1 className='text-2xl'>Hello, I'm Aysha Noor Thiti</h1>
+                 <h1 className='text-2xl'>Hello, I'm Aysha Noor Tithi</h1>
                 <h5>Social Media Manager</h5>
                 <p className='font-bold'>BANGLADESH</p>
                </div>
                </div>
             <div className='w-full flex flex-col items-center justify-center space-y-4 m-2 bg-white rounded-md'>
-                <div className=' rounded-md w-full text-start p-2  bg-white'>
-                    <h1 className='text-3xl  text-blue-400'>{text}</h1>
+                <div className=' rounded-md w-full text-start p-4  bg-white'>
+                    <h1 className='text-3xl  text-blue-400 text-justify'>{text}</h1>
                 </div>
               
             </div>
