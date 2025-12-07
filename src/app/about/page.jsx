@@ -10,7 +10,7 @@ const page = () => {
 
     return (
        
-          <div className='grid lg:grid-cols-1 lg:place-items-center gap-10 m-3 p-3 space-y-4 rounded-md bg-gray-400 '>
+          <div className='grid lg:grid-cols-1 lg:place-items-center gap-10 m-3 p-3 space-y-4 rounded-md bg-pink-300 '>
             <div className='lg:flex place-items-start'>
                <div className='p-2'>
                   <Image className=' w-80 h-80 rounded-2xl overflow-hidden border-2'

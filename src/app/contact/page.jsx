@@ -5,9 +5,9 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp } from "reac
 
 const page = () => {
     return (
-        <div className='space-y-3 m-3 p-3'>
-            <h1 className='text-3xl'>Let’s grow your Business together</h1>
-            <h2 className='text-2xl'>Let’s talk about your business branding stratagis?</h2>
+        <div className='space-y-3 m-3 p-5'>
+            <h1 className='text-3xl text-pink-400'>Let’s grow your Business together</h1>
+            <h2 className='text-2xl text-pink-400'>Let’s talk about your business branding stratagis?</h2>
             <p className='flex items-center'><IoMdMail className='mr-3 text-2xl'></IoMdMail> Mail: <Link href='mailto:*****@gmail.com'><span className='text-red-500 mx-2'>ayshaseo@gmail.com</span> </Link> </p>
             <p className='flex items-center'> <FaWhatsapp className='mr-3 text-2xl'></FaWhatsapp>  Whatsapp: <span className='text-green-400 font-bold mx-2'> 01886996638</span>  </p>
             <div className='lg:flex mx-5 text-3xl pt-7'>
